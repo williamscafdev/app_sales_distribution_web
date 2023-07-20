@@ -3,11 +3,9 @@ import 'dart:developer';
 import 'dart:ui';
 
 import 'package:app_sales_distribution_web/app.dart';
-
+import 'package:app_sales_distribution_web/core/core.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_dotenv/flutter_dotenv.dart';
-
-import 'core/core.dart';
 
 void mainCommon(EnvironmentApp env) {
   runZonedGuarded<Future<void>>(
